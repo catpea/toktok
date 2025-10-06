@@ -1,0 +1,24 @@
+{
+  "name": "toktok",
+  "version": "1.0.0",
+  "description": "A lightweight, fast, and flexible tokenizer for C-like syntax languages (JavaScript, CSS, JSON, Java, C#, etc.)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "save": "git add .; git commit -m 'Updated Release'; npm version patch; npm publish; git push --follow-tags;",
+    "test": "node test"
+  },
+  "keywords": [],
+  "author": "@catpea",
+  "license": "ISC",
+
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/catpea/toktok.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catpea/toktok/issues"
+  },
+  "homepage": "https://github.com/catpea/toktok#readme"
+
+}
